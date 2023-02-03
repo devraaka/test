@@ -5,10 +5,10 @@ variable   "nsg"                {}
 variable   "vnet"               {}
 variable   "vmsize"             {}
 variable   "vm_count"           {}
-variable   "managed_disk_name"  {}
-variable   "managed_disk_sizes" {}
-variable   "managed_disk_type"  {}
-variable   "lun"                {}
+#variable   "managed_disk_name"  {}
+#variable   "managed_disk_sizes" {}
+#variable   "managed_disk_type"  {}
+#variable   "lun"                {}
 
 
 # Resource group
