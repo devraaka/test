@@ -1,11 +1,11 @@
 vmname                      =   ["Pythian"]
 location                    =   "eastus"
-rg_name                     =   "test_rg"
-vnet                        =   "test_vnet"
-nsg                         =   "test_nsg"
+rg_name                     =   "myrg"
+vnet                        =   "myvnet"
+nsg                         =   "mynsg"
 vmsize                      =   ["Standard_B2s"]
 vm_count                    =   "1"
-#managed_disk_name           =   ["msitest-data1","msitest-data2","msitest-data3"]
+#managed_disk_name           =   ["pythian-data1","msitest-data2","msitest-data3"]
 #managed_disk_sizes          =   ["32","32","64"]
 #managed_disk_type           =   ["Standard_LRS","Standard_LRS","Standard_LRS"]
 #lun                         =   ["0","1","2"]
