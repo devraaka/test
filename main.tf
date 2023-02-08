@@ -96,3 +96,7 @@ resource "azurerm_virtual_machine" "sap" {
        disable_password_authentication = false
                 }
 }
+
+output "ip" {
+  value = "${azurerm_public_ip.pubip.ip_address}"
+}
